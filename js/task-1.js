@@ -5,7 +5,6 @@ body.style.backgroundColor = '#fff';
 
 const categories = document.querySelector('#categories');
 categories.style.display = 'inline-flex';
-// categories.style.boxSizing = 'border-box';
 categories.style.width = '440px';
 categories.style.margin = '0 auto';
 categories.style.padding = '24px';
