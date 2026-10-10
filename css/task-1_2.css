@@ -1,0 +1,44 @@
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 440px;
+  padding: 24px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
+
+.item h2 {
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.96px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item ul li {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: #2e2f42;
+}

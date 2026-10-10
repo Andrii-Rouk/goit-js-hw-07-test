@@ -73,3 +73,13 @@ console.log(categories);
 console.log(titles);
 console.log(itemsLast);
 console.log(itemsList);
+
+const title = document.querySelectorAll('.title');
+console.log(title);
+const itemLast = document.querySelectorAll('.item-last');
+const nambCategories = itemLast.length;
+console.log(`Number of categories: ${nambCategories}`);
+items.forEach(item => {
+  const titleText = item.querySelectorAll('.titles').textContent;
+  console.log(`Category: ${titleText}`);
+});
